@@ -12,9 +12,9 @@ var prm500=0;
 var vrrek=1000000;
 bur=["ё", "й", "ц", "у", "к", "е", "н", "г", "ш", "щ", "з", "х", "ъ", "ф", "ы", "в", "а", "п", "р", "о", "л", "д", "ж", "э", "я", "ч", "с", "м", "и", "т", "ь", "б", "ю"]
 bue=["`", "q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "[", "]", "a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'", "z", "x", "c", "v", "b", "n", "m", ",", "."]
-mk=["img/io.png", "img/Q.png", "img/W.png", "img/E.png", "img/R.png", "img/TT.png", "img/Y.png", "img/UU.png", "img/I.png", "img/O.png", "img/P.png", "img/HA.png",
+mk=["img/io.png", "img/Q.png", "img/w.png", "img/E.png", "img/R.png", "img/TT.png", "img/Y.png", "img/UU.png", "img/I.png", "img/O.png", "img/P.png", "img/HA.png",
  "img/TV.png", "img/A.png", "img/S.png", "img/D.png", "img/F.png", "img/G.png", "img/H.png", "img/J.png", "img/K.png", "img/L.png", "img/JH.png", "img/AE.png",
-  "img/Z.png", "img/X.png", "img/C.png", "img/V.png", "img/B.png", "img/N.png", "img/MM.png", "img/BA.png", "img/IY.png"]
+  "img/Z.png", "img/X.png", "img/C.png", "img/V.png", "img/B.png", "img/n.png", "img/MM.png", "img/BA.png", "img/IY.png"]
 var bu=bur;
 var indb=Math.floor(Math.random()*33); 
 rand=bu[indb];

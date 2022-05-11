@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тренажёр клавиатуры</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table width="100%" >
+        <tr>
+            <td><a href="#shop" id="igra"><img src="img/money.png"  alt="" id="money" align="left" valign="middle"></a>
+               </td>
+                <td> <h1 id="mo"></h1></td>
+                <td><h2><a href="#shop" id="igra">магазин</a></h2></td>
+            <td width="100%"></td>
+            <td ><img src="spacer.gif" width="350px" alt=""><h2 id="rek"></h2></td>
+            <td onclick="smr()"><h2 id="rus">рус/</h2></td>
+            <td onclick="sme()"><h2 id="eng">eng</h2></td>
+            <td><img src="img/spacer.gif" alt="" width="50"></td>
+            <td onclick="smonstr()"><h2 id="smon">монстр/</h2></td>
+            <td onclick="bez()"><h2 id="bmn">время</h2></td>
+        </tr>
+    </table>
+    
+    <h1 id="text" align="center">Найди</h1>
+    <table border="1" align="center" id="run">
+        <tr>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a0" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a1" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a2" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a3" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a4" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a5" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a6" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a7" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a8" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a9" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a10" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a11" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a12" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a13" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a14" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a15" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a16" width="97">
+            </td>
+            <td>
+                <img src="img/spacer.gif" alt="" id="a17" width="97">
+            </td>
+                
+        </tr>
+    </table>
+    <h2 align="center" id="vibor">Выберите уровень:</h2>
+    <table align="center" id="urovny">
+        <tr>
+            <td>
+                <img src="img/a1.png" title="За прохождение Вы получите 10 монет" alt="" id="u1" onclick="ur(1);">
+            </td>
+            <td>
+                <img src="img/a2.png" title="За прохождение Вы получите 20 монет" alt="" id="u2" onclick="ur(2);">
+            </td>
+            <td>
+                <img src="img/a3.png" title="За прохождение Вы получите 30 монет" alt="" id="u3" onclick="ur(3);">
+            </td>
+            <td>
+                <img src="img/b4.png" title="За прохождение Вы получите 40 монет" alt="" id="u4" onclick="ur(4)">
+            </td>
+            <td>
+                <img src="img/b5.png" title="За прохождение Вы получите 50 монет" alt="" id="u5" onclick="ur(5);">
+            </td>
+            
+        </tr>
+    </table>
+    <h1 align="center"><img src="img/klaviatura.png" id="klava" alt=""></h1>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+    <a href="#igra" id="shop">К игре</a>
+    <h1 align="center">Магазин</h1>
+    <table border="0" align="center">
+        <tr>
+            <td id="ch300">
+                <img src="img/chilli300px2.png"  alt="" >
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/chilli300px3.png"  alt="">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/chilli300px.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/b300.png" id="mon300" onclick="chel(2)"  id="m300">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/c500.png" id="mon500" alt="" onclick="chel(3)">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/a00.png" id="start" alt="" onclick="chel(4)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/monster1.png" alt="">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/monster2.png" alt="">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/monster3.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/b300.png" id="monst300" onclick="chel(5)">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/c500.png" id="monst500" alt="" onclick="chel(6)">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/spacer.gif" width="100px" alt="">
+            </td>
+            <td>
+                <img src="img/a00.png" id="monstart" alt="" onclick="chel(7)">
+            </td>
+        </tr>
+    </table>
+    <script src="script.js" ></script>
+</body>
+</html>

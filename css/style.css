@@ -1,0 +1,44 @@
+#run{
+    text-align: center;
+    vertical-align: middle;
+    background-color:aliceblue;
+
+  
+}
+#go{
+    position: absolute;
+    left: 45%;
+    top:70%
+}
+body{
+
+    background-image:url("../img/fon.png") ;
+    background-repeat: no-repeat;
+    background-color: rgb(111, 191, 31);
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+#u1,#u2,#u3,#u4,#u5,#rus,#eng,#smon,#bmn,#mon300,#mon500,#start,#monst300,#monst500,#monstart{
+    cursor: pointer;
+}
+td{
+    text-align: center;
+}
+a{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+}
+#eng,#bmn{
+    color:#ff0000;
+}
+#rus,#smon{
+    color: #009900;
+}
+#pravila{
+    background-color: rgba(240, 255, 255, 0.851) ;
+}

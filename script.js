@@ -63,11 +63,11 @@ function sm(){//если выбрали: c монстром
     clearInterval(timevr);
     bmn.style.color="#ff0000";
     smon.style.color="#009900";
-    u1.src="img/1.png"
-    u2.src="img/2.png"
-    u3.src="img/3.png"
-    u4.src="img/4.png"
-    u5.src="img/5.png"
+    u1.src="img/a1.png"
+    u2.src="img/a2.png"
+    u3.src="img/a3.png"
+    u4.src="img/b4.png"
+    u5.src="img/b5.png"
 };
 function bm(){//если выбрали: без монстра
     nom=0;
